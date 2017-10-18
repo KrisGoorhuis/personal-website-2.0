@@ -1,0 +1,26 @@
+
+<nav ng-controller="NavController as nav" id="topbar-container" class="navbar navbar-expand-md navbar-light bg-light">
+
+	<div id="brand" class="navbar-brand" href="#">krisgoorhuis</div>	
+
+  	<button ng-click="nav.toggleNav()" id="hamburger-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links-div" aria-controls="nav-links-div" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fa fa-bars" aria-hidden="true"></span>
+ 	</button>
+
+	
+		<div id="nav-links-div" class="collapse navbar-collapse">
+	 	<ul class="navbar-nav mr-auto">
+	      	<li id="nav-home" class="nav-item active">
+	        	<a ng-click="nav.changePage('home')" class="nav-link" href="#">Home</a>
+	      	</li>
+	      	<li id="nav-about" class="nav-item">
+	        	<a ng-click="nav.changePage('about')" class="nav-link" href="#">About</a>
+	      	</li>
+      		<li id="nav-contact" class="nav-item">
+	        	<a ng-click="nav.changePage('contact')" class="nav-link" href="#">Contact</a>
+      		</li>
+	    </ul>
+  	</div>	
+
+
+</nav>
