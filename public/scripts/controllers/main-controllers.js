@@ -12,19 +12,30 @@ app.controller('NavController', function() {
 		}
 	}
 
-	this.changePage = function(desiredPage) {
-		$('#nav-home').removeClass('active');
-		$('#nav-about').removeClass('active');
-		$('#nav-contact').removeClass('active');
+	this.scrollToSection = function(desiredSection) {
 
-		if (desiredPage == "home") {
-			$('#nav-home').addClass('active');
+		if (desiredSection == "welcome") {
+			$('html').animate({
+				scrollTop: 0
+			}, 500);
 		}
-		if (desiredPage == "about") {
-			$('#nav-about').addClass('active');
+
+		if (desiredSection == "portfolio") {
+			$('html').animate({
+				scrollTop: $('#view-on-github').offset().top - $('#topbar-container').height()
+			}, 500);
 		}
-		if (desiredPage == "contact") {
-			$('#nav-contact').addClass('active');
+
+		if (desiredSection == "about") {
+			$('html').animate({
+				scrollTop: $('#about-container').offset().top - $('#topbar-container').height()
+			}, 500);
+		}
+
+		if (desiredSection == "contact") {
+			$('html').animate({
+				scrollTop: $('html').height()
+			}, 500);
 		}
 	}
 });

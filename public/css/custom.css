@@ -63,6 +63,7 @@
 }
 
 #nav-links-div a:hover {
+	cursor: pointer;
 	opacity: 1;
 	color: rgba(52, 58, 64, 1);
 	box-shadow: 0px 5px 4px -4px rgba(109, 149, 59, 1);
@@ -208,8 +209,26 @@ p {
 	padding-top: 110px;
 }
 
+#about-container p {
+	margin-top: 10px;
+}
+
+#bio-container {
+	display: flex;
+	padding: 30px;
+	padding-right: 30px;
+}
+
+#bio-container img {
+	border-radius: 3px;
+	margin: 16px;
+	margin-right: 30px;
+	margin-left: 0px;
+	width: 400px;
+}
+
 h3 {
-	margin-top: 100px;
+	margin-top: 70px;
 	padding-bottom: 10px;
 	border-bottom: 5px solid rgba(109, 149, 59, 1);
 }
@@ -248,18 +267,24 @@ h3 {
 #social-container a {
 	color: white;
 	margin: 15px;
+	text-decoration: none;
+}
+
+#social-container i {
 	transition: 0.3s;
+	text-decoration: none;
 }
 
 #social-container i:hover {
 	color: rgba(109, 149, 59, 1);
-	transition: 0.3s;
+	transition: 0.2s;
+}
+
+#social-container .no-link-given:hover {
+	color: white;
 }
 
 #email p {
-	height: 50px;
+	height: 100px;
 }
 
-#email span {
-	color: rgba(198, 156, 173, 1);;
-}
