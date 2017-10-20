@@ -28,10 +28,12 @@ $(document).ready(function() {
 		var windowWidth = $(window).width();
 
 		if (windowWidth > 1300) {
+			// $('.navbar-nav').css('align-items', 'center');
 			$('#nav-links-div').css('position', 'absolute');
 			$('#nav-links-div').css('margin-left', jumboMargin);
 		}
 		if (windowWidth < 767) {
+			// $('.navbar-nav').css('align-items', 'flex-start');
 			$('#nav-links-div').css('position', 'relative');
 			$('#nav-links-div').css('margin-left', 'inherit');
 		}
@@ -41,11 +43,5 @@ $(document).ready(function() {
 	
 	setTimeout(function() {
 		moveNavbar();
-	}, 30);
-
-	$(window).resize(function() {
-		moveNavbar();
-	});
-
-	
+	}, 300);
 });
