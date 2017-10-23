@@ -251,11 +251,6 @@ p {
 }
 
 
-@media screen and (max-width: 767px) {
-	#bio-container {
-		flex-direction: column;
-	}
-}
 
 #bio-container img {
 	border-radius: 3px;
@@ -263,6 +258,16 @@ p {
 	margin-right: 30px;
 	margin-left: 0px;
 	width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+	#bio-container {
+		flex-direction: column;
+	}
+
+	#bio-container img {
+		width: 100%;
+	}
 }
 
 h3 {
