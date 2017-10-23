@@ -4,9 +4,9 @@
 
 
 	</div>
-	<div id="sub-jumbotron-text">
+	<div ng-controller="NavController as nav" id="sub-jumbotron-text">
 		<p>But, really, I'm glad you're here.</p>
      	<p>I work for <a href="https://twitter.com/ysbrydgames" target="_blank">Ysbryd Games</a></p>
-     	<p>and made <a href="#subIntroText">some things</a> you can look at.</p>
+     	<p>and made <a ng-click="nav.scrollToSection('portfolio')">some things</a> you can look at.</p>
 	 </div>
 </div>
