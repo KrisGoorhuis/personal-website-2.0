@@ -19,26 +19,26 @@ app.controller('NavController', function() {
 	this.scrollToSection = function(desiredSection) {
 
 		if (desiredSection == "welcome") {
-			$('html').animate({
+			$('html, body').animate({
 				scrollTop: 0
 			}, 500);
 		}
 
 		if (desiredSection == "portfolio") {
-			$('html').animate({
+			$('html, body').animate({
 				scrollTop: $('#view-on-github').offset().top - $('#topbar-container').height()
 			}, 500);
 		}
 
 		if (desiredSection == "about") {
-			$('html').animate({
+			$('html, body').animate({
 				scrollTop: $('#about-container').offset().top - $('#topbar-container').height()
 			}, 500);
 		}
 
 		if (desiredSection == "contact") {
-			$('html').animate({
-				scrollTop: $('html').height()
+			$('html, body').animate({
+				scrollTop: $('body').height()
 			}, 500);
 		}
 	}
