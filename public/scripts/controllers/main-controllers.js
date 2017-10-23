@@ -3,12 +3,16 @@ var app = angular.module('main-controllers', []);
 
 app.controller('NavController', function() {
 	this.toggleNav = function() {
+
+		// If active
 		if ($('#hamburger-button').hasClass('hamburger-button-active')) {
 			$('#hamburger-button').removeClass('hamburger-button-active');
-		//	$('#nav-links-div').css('position', 'relative');
+			$('.background-dimmer').removeClass('dimmed-out');
+
+		// If not active
 		} else {
 			$('#hamburger-button').addClass('hamburger-button-active');
-			//$('#nav-links-div').css('position', 'absolute');
+			$('.background-dimmer').addClass('dimmed-out');
 		}
 	}
 

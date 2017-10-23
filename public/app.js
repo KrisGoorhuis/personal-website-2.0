@@ -4,22 +4,6 @@
 
 })();
 
-
-function moveNavbar() {
-		var jumboMargin = $('#main-jumbotron-container').css('margin-left');
-		var windowWidth = $(window).width();
-
-		if (windowWidth > 1300) {
-			console.log($(window).width());
-			$('#nav-links-div').css('position', 'absolute');
-			$('#nav-links-div').css('margin-left', jumboMargin);
-		}
-		if (windowWidth < 767) {
-			$('#nav-links-div').css('position', 'relative');
-			$('#nav-links-div').css('margin-left', 'inherit');
-		}
-	}
-
 $(document).ready(function() {
 
 	// This forces our nav links to line up neatly with the jumbotron text.
@@ -44,4 +28,8 @@ $(document).ready(function() {
 	setTimeout(function() {
 		moveNavbar();
 	}, 300);
+
+	$(window).on('resize', function() {
+		moveNavbar();
+	})
 });
