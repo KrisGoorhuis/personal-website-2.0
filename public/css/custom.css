@@ -197,6 +197,12 @@
 	color: rgba(198, 156, 173, 1);
 }
 
+@media screen and (max-width: 767px) {
+	#view-on-github {
+		margin-top: 90px;
+	}
+}	
+
 #projects-container {
 	width: 100%;
 	background-color: rgba(52, 58, 64, 1);
