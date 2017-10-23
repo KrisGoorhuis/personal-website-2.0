@@ -19,6 +19,7 @@
 }
 
 #brand {
+	
 	color: rgba(109, 149, 59, 1);
 	padding: 0px;
 	padding-left: 30px;
@@ -30,6 +31,13 @@
 	background-color: rgba(52, 58, 64, 1);
 	font-family: 'ABeeZee';	
 	cursor: default;
+}
+
+@media screen and (max-width: 767px) {
+	#brand {
+		margin: 0px;
+		width: 66.6%;	
+	}
 }
 
 #hamburger-button {
