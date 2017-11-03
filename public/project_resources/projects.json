@@ -1,4 +1,11 @@
 [
+	
+	{
+			"name": "Data Visualization: Global Temperatures",
+			"imagePath": "/images/project_thumbnails/data-visualization-temperature.jpg",
+			"link": "https://krisg-data-visualization-temp.herokuapp.com/",
+			"description": ""
+	},
 	{
 			"name": "Dot Zoo",
 			"imagePath": "/images/project_thumbnails/dot-zoo.jpg",

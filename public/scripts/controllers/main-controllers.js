@@ -17,7 +17,7 @@ app.controller('NavController', function() {
 	}
 
 	this.scrollToSection = function(desiredSection) {
-
+		// 'html' seems to be what desktop browsers use, while mobile uses 'body'. So do both!
 		if (desiredSection == "welcome") {
 			$('html, body').animate({
 				scrollTop: 0
