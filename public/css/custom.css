@@ -47,6 +47,10 @@
 	outline-style: none;
 }
 
+#hamburger-button:hover {
+	cursor: pointer;
+}
+
 #hamburger-button.hamburger-button-active {
    	transform: rotate(-90deg);
    	color: rgba(109, 149, 59, 1.0);
@@ -165,6 +169,7 @@
 #sub-jumbotron-text a:hover {
 	transition: 0.2s;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 #view-on-github {
@@ -260,8 +265,17 @@
 	border-top: 10px solid rgba(109, 149, 59, 1.0);
 	background-color: rgba(52, 58, 64, 1);
 	color: white;
+	/*padding: 10%;*/
 	padding-top: 110px;
 }
+
+/*@media screen and (max-width: 767px) {
+	#about-container {
+		padding: 15px;
+		padding-top: 110px;
+	}
+} */
+
 
 #about-container p {
 	margin-top: 10px;
@@ -271,6 +285,8 @@
 	display: flex;
 	padding: 30px;
 	padding-right: 30px;
+	margin: auto;
+	max-width: 1100px;
 }
 
 

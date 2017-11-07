@@ -1,7 +1,7 @@
 [
 	
 	{
-			"name": "Data Visualization: Global Temperatures",
+			"name": "Temperature Visualization",
 			"imagePath": "/images/project_thumbnails/data-visualization-temperature.jpg",
 			"link": "https://krisg-data-visualization-temp.herokuapp.com/",
 			"description": ""
