@@ -344,6 +344,7 @@ h3 {
 
 .skill-listing i:hover {
 	color: rgba(109, 149, 59, 1);
+	cursor: default; 
 }
 
 #social-container {
