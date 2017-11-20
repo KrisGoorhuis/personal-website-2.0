@@ -1,7 +1,7 @@
 
 <nav ng-controller="NavController as nav" id="topbar-container" class="navbar navbar-expand-md navbar-light bg-light">
 
-	<div id="brand" class="navbar-brand" href="#">krisgoorhuis</div>	
+	<div ng-click="nav.scrollToSection('welcome');" id="brand" class="navbar-brand" href="#">krisgoorhuis</div>	
 
   	<button ng-click="nav.toggleNav()" id="hamburger-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links-div" aria-controls="nav-links-div" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="fa fa-bars" aria-hidden="true"></span>
