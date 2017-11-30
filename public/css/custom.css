@@ -368,7 +368,7 @@ h3 {
 }
 
 #social-container .no-link-given:hover {
-	color: white;
+	color: rgba(160, 160, 160, 1);
 }
 
 #email p {
