@@ -1,6 +1,12 @@
 [
 	
 	{
+		"name": "Beer Style Guide (desktop)",
+		"imagePath": "/images/project_thumbnails/beer-browser.jpg",
+		"link": "https://beer-style-guide.herokuapp.com/",
+		"description": ""
+	},
+	{
 			"name": "Temperature Visualization",
 			"imagePath": "/images/project_thumbnails/data-visualization-temperature.jpg",
 			"link": "https://krisg-data-visualization-temp.herokuapp.com/",
