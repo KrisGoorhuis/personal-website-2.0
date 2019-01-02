@@ -1,7 +1,13 @@
 [
 	
 	{
-		"name": "Beer Style Guide (desktop)",
+		"name": "Chat App",
+		"imagePath": "/images/project_thumbnails/chat_app.jpg",
+		"link": "https://krisg-chat-app.herokuapp.com/",
+		"description": ""
+	},
+	{
+		"name": "Beer Style Guide",
 		"imagePath": "/images/project_thumbnails/beer-browser.jpg",
 		"link": "https://beer-style-guide.herokuapp.com/",
 		"description": ""
@@ -12,12 +18,7 @@
 			"link": "https://krisg-data-visualization-temp.herokuapp.com/",
 			"description": ""
 	},
-	{
-			"name": "Dot Zoo",
-			"imagePath": "/images/project_thumbnails/dot-zoo.jpg",
-			"link": "https://dot-zoo.herokuapp.com/",
-			"description": ""
-	},
+	
 	{
 			"name": "Snake Game",
 			"imagePath": "/images/project_thumbnails/snake_game.jpg",
@@ -36,12 +37,7 @@
 			"link": "https://krisg-frontend-demo.herokuapp.com/",
 			"description": ""
 	},
-	{
-			"name": "Back End Practice",
-			"imagePath": "/images/project_thumbnails/polling_app.jpg",
-			"link": "https://krisgpollingapp.herokuapp.com/",
-			"description": ""
-	},
+
 	{
 			"name": "Simon Game",
 			"imagePath": "/images/project_thumbnails/Simon.jpg",
